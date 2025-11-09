@@ -1,0 +1,18 @@
+SHL Assessment Recommender — submission bundle
+
+What this commit contains:
+- Backend API (FastAPI): `main.py`, search and index utilities
+- Index building and catalog scripts: `build_index.py`, `generate_catalog_from_train.py`
+- Search utilities and prediction scripts: `search_index.py`, `generate_predictions_local.py`, `generate_predictions.py`
+- Short approach document: `approach.md`
+- Requirements and README for submission: `requirements.txt`, `README_SUBMISSION.md`
+- Predictions CSV for the provided test set: `data/predictions.csv`
+
+Notes:
+- model_store (faiss.index, embeddings.npy) should be included or instructions provided to rebuild using `build_index.py`.
+- Frontend code is separate in the `frontend/` folder; ensure it is pushed as part of the repository.
+
+Suggested git commands:
+  git add .
+  git commit -F backend/app/COMMIT_MESSAGE.txt
+  git push origin main
