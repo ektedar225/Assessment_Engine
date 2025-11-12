@@ -7,7 +7,7 @@ import os
 import faiss
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-from utils import load_catalog, topk_from_scores, balance_by_type
+from .utils import load_catalog, topk_from_scores, balance_by_type
 
 app = FastAPI(title="SHL Assessment Recommender API")
 
